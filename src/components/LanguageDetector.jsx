@@ -63,6 +63,9 @@ function LanguageDetector() {
         value={text}
         onChange={(e) => setText(e.target.value)}
       />
+      <div className="text-xs text-gray-400 mb-4 mx-auto text-center">
+        Tip: Input more text for greater accuracy
+      </div>
       <div className="flex justify-center space-x-4">
         <button
           className={`mt-4 bg-black hover:bg-gray-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300 ${isLoading ? 'opacity-50' : ''}`}
